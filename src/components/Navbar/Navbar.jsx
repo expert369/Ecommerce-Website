@@ -32,12 +32,12 @@ const Menu = [
 const DropdownLinks = [
     {
         id: 1,
-        name: 'Best Selling',
+        name: 'Valentines Templates',
         link: '/#'
     },
     {
         id: 2,
-        name: 'Top rated',
+        name: 'Graduation Day Templates',
         link: '/#'
     },
 ];
@@ -125,7 +125,7 @@ const Navbar = () => {
                                 <li key={data.id}>
                                     <a href={data.links}
                                     className='inline-block w-full rounded-md p-2
-                                    hover:bg-primary/20 dark:hover:bg-white/20 dark:text-white'
+                                    hover:bg-primary/20 dark:hover:bg-white/20 dark:text-white cursor-pointer'
                                     >{data.name}</a>
                                 </li>
                             ))}
