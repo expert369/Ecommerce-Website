@@ -10,14 +10,14 @@ const Banner = () => {
         <div className='container mb-20'>
             <div
             className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-15
-            ml-20'
+            ml-20 md: gap-20 sm:gap-24'
             >
                 <div>
                     <img src={Valentines} alt="" 
                     className='object-cover w-[500px] h-auto shadow-2xl drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]'
                     />
                 </div>
-                <div className="flex flex-col gap-6 sm:pt-0">
+                <div className="flex flex-col gap-6 sm:pt-0 ">
                     <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
                         Valentines Sale up to 50% Off
                     </h1>
