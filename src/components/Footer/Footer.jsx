@@ -39,7 +39,7 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={FooterImg} className="text-white">
+    <div style={FooterImg} className="text-white" id="footer">
       <div className="container">
         <div className="grid md:grid-cols-3 pb-44 pt-5">
           {/* shop details */}
@@ -57,7 +57,7 @@ const Footer = () => {
           {/* Footer Links */}
           <div className="grid grid-cols-3 sm:grid-col-3 py-4 px-6
           col-span-2 md:pl-10">
-            <div>
+            {/* <div>
                 <div className="py-8 px-4">
                     <h1 className="sm:text-xl text-xl font-bold sm:text-left 
                     text-justify mb-3">Important Links</h1>
@@ -71,7 +71,7 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
-            </div>
+            </div> */}
             <div>
                 <div className="py-8 px-4">
                     <h1 className="sm:text-xl text-xl font-bold sm:text-left 
@@ -90,15 +90,15 @@ const Footer = () => {
             {/* social links */}
             <div className="space-y-3 mt-8">
                 <div className="flex space-x-3">
-                    <a href="#">
+                    <a href="https://www.instagram.com/lyka_artspace/">
                         <FaInstagram className="text-3xl"/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/lykaartspace">
                         <FaFacebook className="text-3xl"/>
                     </a>
-                    <a href="#">
+                    {/* <a href="#">
                         <FaLinkedin className="text-3xl"/>
-                    </a>
+                    </a> */}
                 </div>
                 <div className="mt-6">
                     <div className="flex items-center gap-3">

@@ -13,18 +13,18 @@ const Menu = [
     },
     {
         id: 2,
-        name: 'Top Rated',
-        link: '/#services',
+        name: 'Products',
+        link: '/#products',
     },
     {
         id: 3,
-        name: 'Stickers',
-        link: '/#',
+        name: 'Top Rated',
+        link: '/#top_products',
     },
     {
         id: 4,
-        name: 'Artworks',
-        link: '/#'
+        name: 'Testimonials',
+        link: '/#testimonials'
     },
 
 ];
@@ -59,8 +59,8 @@ const Navbar = () => {
                 </div>
 
                 {/* search bar*/}
-                <div className='flex justify-between items-center gap-4'>
-                    <div className='relative group hidden sm:block'>
+                {/* <div className='flex justify-between items-center gap-4'>
+                    <div className='relative group hidden sm:block dark:text-black'>
                         <input type="text" placeholder='Search' 
                         className="w-[200px] sm:w-[200px] group-hover:w-[300px]
                         transition-all duration-300 rounded-full border border-gray-300
@@ -69,10 +69,10 @@ const Navbar = () => {
                         <IoMdSearch 
                         className='text-gray-500 group-hover:text-primary absolute 
                         top-1/2 transform -translate-y-1/2 right-3'  />
-                    </div>
+                    </div> */}
 
                     {/* order button */}
-                    <button
+                    {/* <button
                     onClick={ () => alert('Order button clicked')}
                     className='bg-gradient-to-r from-primary to-secondary transition-all 
                     duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3
@@ -86,18 +86,18 @@ const Navbar = () => {
                         <FaCartShopping 
                         className='text-xl text-white drop-shadow-sm cursor-pointer'
                         />
-                    </button>
+                    </button> */}
 
                     {/* Darkmode Switch */}
+                {/* </div> */}
                     <div>
                         <DarkMode />
                     </div>
-                </div>
             </div>
         </div>
         {/* lower Navbar */}
         <div className='flex justify-center'> 
-            <ul className='sm:flex items-center gap-4 py-1.5'>
+            <ul className='sm:flex items-center gap-4 py-4'>
                 {Menu.map((data) => (
                     <li key={data.id}>
                         <a href={data.link}
@@ -107,7 +107,7 @@ const Navbar = () => {
                     </li>
                 ))}
                 {/* Simple Dropdown and Links */}
-                <li className='group relative'>
+                {/* <li className='group relative'>
                     <a href="/#"
                     className='flex items-center gap-[2px] py-2'
                     >
@@ -131,9 +131,8 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </div>
-                </li>
+                </li> */}
             </ul>
-            
         </div>
     </div>
   );

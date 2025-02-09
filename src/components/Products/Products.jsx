@@ -10,56 +10,55 @@ const ProductsData = [
     {
         id: 1,
         image: Img1,
-        title: 'Product 1',
+        title: 'Inspired Polaroid/Instax Photos',
         rating: 5,
-        description: 'Product 1 Description',
+        description: 'Great quality printed photos in thick woven photopaper',
         aosDelay: "0",
     },
     {
         id: 2,
         image: Img2,
-        title: 'Product 2',
-        rating: 4,
-        description: 'Product 2 Description',
+        title: 'Subject and Name Label Stickers',
+        rating: 5,
+        description: 'Customized label stickers (matte & glossy)',
         aosDelay: "200",
     },
     {
         id: 3,
         image: Img3,
-        title: 'Product 3',
-        rating: 4,
-        description: 'Product 3 Description',
+        title: 'Customized Money Envelope',
+        rating: 5,
+        description: 'with blank name label, resealable, no need glue or tape - glossy photopaper',
         aosDelay: "400",
     },
     {
         id: 4,
         image: Img4,
-        title: 'Product 4',
+        title: 'Layout Design Services',
         rating: 5,
-        description: 'Product 4 Description',
+        description: 'Request any theme/design',
         aosDelay: "600",
     },
     {
         id: 5,
         image: Img5,
-        title: 'Product 5',
+        title: 'Customized Invitation',
         rating: 5,
-        description: 'Product 5 Description',
+        description: 'folded invitation card with envelope and seal sticker or tag and ribbon',
         aosDelay: "800",
     },
 ];
 
 const Products = () => {
   return (
-    <div className='mt-14 mb-12'>
+    <div className='mt-14 mb-12' id="products">
         <div className='container'>
             {/* Header section */}
             <div className='text-center mb-10 max-w-[600px] mx-auto'>
                 <p data-aos="fade-up" className='text-sm text-primary'>Top Selling Products</p>
-                <h1 data-aos="fade-up" className='text-3xl font-bold'>Products</h1>
+                <h1 data-aos="fade-up" className='text-3xl font-bold'>Creative Products & Services</h1>
                 <p data-aos="fade-up" className='text-xs text-gray-400'>
-                    Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Magnam, deserunt!
+                    Ready made designs, customized products and layout design services
                 </p>
             </div>
             {/* Body section */}

@@ -6,7 +6,8 @@ import Valentines from '../../assets/TopProducts/Valentines.jpg'
 
 const Banner = () => {
   return (
-    <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
+    <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0"
+    id="banner">
         <div className='container mb-20'>
             <div
             className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-15

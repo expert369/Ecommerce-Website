@@ -69,7 +69,7 @@ const Testimonials = () => {
     }
 
   return (
-    <div className='py-10 mb-10'>
+    <div className='py-10 mb-10' id="testimonials">
         <div className='container'>
             {/* header section */}
             <div className='text-center mb-10 max-w-full'>

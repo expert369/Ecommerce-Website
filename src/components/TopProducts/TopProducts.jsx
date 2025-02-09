@@ -34,7 +34,7 @@ const ProductsData = [
 
 const TopProducts = () => {
   return (
-    <div>
+    <div id="top_products">
         <div className='container mb-24'>
             {/* Header Section */}
             <div className='mb-32 text-left'>

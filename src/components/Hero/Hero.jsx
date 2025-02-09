@@ -14,14 +14,14 @@ const ImageList = [
     {
         id: 2,
         image: Image2,
-        title: "Image 2",
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        title: "Themed Bookmarks",
+        description: "Waterproof, durable, back-to-back design"
     },
     {
         id: 3,
         image: Image3,
-        title: "Image 3",
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        title: "Customized Ref Magnet Souvenir",
+        description: "Free layout for a minimum of 20 pcs., waterproof and durable"
     },
 ]
 
@@ -43,7 +43,8 @@ const Hero = () => {
   return (
     <div className='relative overflow-hidden min-h-[550px] 
     sm:min-h-[650px] bg-gray-100 flex justify-center items-center
-    dark:bg-gray-950 dark:text-white duration-200'>
+    dark:bg-gray-950 dark:text-white duration-200'
+    id="hero">
         {/* background pattern */}
         <div className='h-[700px] w-[700px] bg-primary/40 absolute
         -top-1/2 right-0 rounded-3xl rotate-45 -z-9'>

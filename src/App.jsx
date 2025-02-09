@@ -21,7 +21,7 @@ export const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <Navbar />
       <Hero />
       <Products />
@@ -29,6 +29,9 @@ export const App = () => {
       <Banner />
       <Testimonials />
       <Footer />
+      <style>
+        {`html { scroll-behavior: smooth; }`}
+      </style>
     </div>
   );
 };
